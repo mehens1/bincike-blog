@@ -7,43 +7,20 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/logo.jpg') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/logo.jpg') }}" />
     {{-- <link rel="manifest" href="{{ asset('assets/images/favicon/logo.jpg') }}" /> --}}
-    <link rel="mask-icon" href="{{ asset('assets/images/favicon/logo.jpg') }}" />
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon/logo.jpg') }}" />
-    <title> {{ $data['page_name'] }} :: BINCIKE BLOG - ...Unleashing the Power of Knowledge!</title>
+    <link rel="mask-icon" href="{{ asset('website_assets/static/images/favicon/logo.jpg') }}" />
+    <link rel="shortcut icon" href="{{ asset('website_assets/static/images/favicon/logo.jpg') }}" />
+    <title> {{ $data['page_name'] }} :: BINCIKE BLOG :: ...Unleashing the Power of Knowledge!</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link data-next-font="size-adjust" rel="preconnect" href="/" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" data-n-g="" />
+    <link rel="stylesheet" href="{{ asset('website_assets/static/css/192c74be8e5b16ce.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('website_assets/static/css/947140cc50637382.css') }}"/>
 
-    <script defer="" nomodule="" src="https://www.thisdaylive.com/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/webpack-a6b6ca5a4def3fb4.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/framework-2c79e2a64abdb08b.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/main-4d4497fa46aa99a8.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/pages/_app-2648c6c3b1dc5023.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/197-4c9ea968e657ddac.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/958-511bf9f581717555.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/741-db3d8d0650590b82.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/676-ff2103091cfd78ce.js" defer=""></script>
-    <script src="https://www.thisdaylive.com/_next/static/chunks/pages/index-46e56335011db4e5.js" defer=""></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
-
-
-    {{-- <script src="{{ asset('assets/js/webpack-a6b6ca5a4def3fb4.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/framework-2c79e2a64abdb08b.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/main-4d4497fa46aa99a8.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/_app-2648c6c3b1dc5023.js')  }}" defer=""></script>
-    <script src="{{ asset('assets/js/197-4c9ea968e657ddac.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/958-511bf9f581717555.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/741-db3d8d0650590b82.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/676-ff2103091cfd78ce.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/index-46e56335011db4e5.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/_buildManifest.js') }}" defer=""></script>
-    <script src="{{ asset('assets/js/_ssgManifest.js') }}" defer=""></script> --}}
-
-    {{-- font awesome 6 --}}
-    <link rel="stylesheet" href="{{ asset('assets/fontawesome/css/all.css') }}" data-n-g="" />
-    <script src="{{ asset('assets/fontawesome/js/all.js') }}" defer=""></script>
+    <script src="{{ asset('website_assets/static/chunks/converted.js') }}" defer=""></script>
+    <script src="{{ asset('website_assets/static/chunks/main.js') }}" defer=""></script>
 
     <style
         data-href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@500&display=swap">
@@ -322,11 +299,8 @@
 
 <body>
     <div id="__next">
-        <div id="home-body"
-            class="home page-template-default page page-id-148 logged-in admin-bar wp-embed-responsive customize-support mm-wrapper">
-            <div id="slide_menu" style="z-index:2"
-                class="mm-menu mm-menu_offcanvas mm-menu_iconbar-right mm-menu_selected-hover mm-menu_selected-parent mm-menu_border-full mm-menu_pagedim-black mm-menu_shadow-page mm-menu_theme-white mm-menu_fx-menu-slide"
-                aria-hidden="true">
+        <div id="home-body" class="home page-template-default page page-id-148 logged-in admin-bar wp-embed-responsive customize-support mm-wrapper">
+            <div id="slide_menu" style="z-index:2" class="mm-menu mm-menu_offcanvas mm-menu_iconbar-right mm-menu_selected-hover mm-menu_selected-parent mm-menu_border-full mm-menu_pagedim-black mm-menu_shadow-page mm-menu_theme-white mm-menu_fx-menu-slide" aria-hidden="true">
                 <div class="mm-navbars_top">
                     <div class="mm-navbar"><a class="mm-btn mm-btn_prev mm-navbar__btn mm-hidden" aria-hidden="true"
                             style="cursor:pointer"></a><a class="mm-navbar__title"><span>Menu</span></a></div>
@@ -342,43 +316,43 @@
                     <div id="panel-menu" class="mm-panel mm-panel_opened">
                         <ul class="mm-listview">
                             <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-148 current_page_item menu-item-606048 mm-listitem mm-listitem_selected">
-                                <a href="/" class="mm-listitem__text">Home</a></li>
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-148 {{ request()->is('/') ? 'current-menu-item' : '' }} menu-item-606048 mm-listitem mm-listitem_selected">
+                                <a href="{{ route('home') }}" class="mm-listitem__text">Home</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606039 mm-listitem">
-                                <a href="/category/business" class="mm-listitem__text">Business</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606039 mm-listitem {{ request()->is('category/business') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'business']) }}" class="mm-listitem__text">Business</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606040 mm-listitem">
-                                <a href="/category/politics" class="mm-listitem__text">Politics</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606040 mm-listitem {{ request()->is('category/politics') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'pusiness']) }}" class="mm-listitem__text">Politics</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606041 mm-listitem">
-                                <a href="/category/nigeria" class="mm-listitem__text">Nigeria</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606041 mm-listitem {{ request()->is('category/nigeria') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'nigeria']) }}" class="mm-listitem__text">Nigeria</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-759831 mm-listitem">
-                                <a href="/category/international" class="mm-listitem__text">International</a><a
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-759831 mm-listitem {{ request()->is('category/international') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'international']) }}" class="mm-listitem__text">International</a><a
                                     class="mm-btn mm-btn_next mm-listitem__btn" style="cursor:pointer"><span
                                         class="mm-counter">2</span><span class="mm-sronly">Open submenu</span></a>
                             </li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606042 mm-listitem">
-                                <a href="/category/health" class="mm-listitem__text">Health &amp; Wellbeing</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606042 mm-listitem {{ request()->is('category/health') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'health']) }}" class="mm-listitem__text">Health &amp; Wellbeing</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606043 mm-listitem">
-                                <a href="/category/education" class="mm-listitem__text">Education</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606043 mm-listitem {{ request()->is('category/education') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'education']) }}" class="mm-listitem__text">Education</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606044 mm-listitem">
-                                <a href="/category/lifestyle" class="mm-listitem__text">Life &amp; Style</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606044 mm-listitem {{ request()->is('category/lifestyle') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'lifestyle']) }}" class="mm-listitem__text">Life &amp; Style</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606045 mm-listitem">
-                                <a href="/category/sport" class="mm-listitem__text">Sport</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606045 mm-listitem {{ request()->is('category/sport') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'sport']) }}" class="mm-listitem__text">Sport</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606046 mm-listitem">
-                                <a href="/category/editorial" class="mm-listitem__text">Editorial</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606046 mm-listitem {{ request()->is('category/editorial') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'editorial']) }}" class="mm-listitem__text">Editorial</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606047 mm-listitem">
-                                <a href="/category/backpage" class="mm-listitem__text">Backpage</a></li>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606047 mm-listitem {{ request()->is('category/backpage') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'backpage']) }}" class="mm-listitem__text">Backpage</a></li>
                             <li
-                                class="search-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-606054 mm-listitem">
+                                class="search-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-606054 mm-listitem {{ request()->is('category/search') ? 'current-menu-item' : '' }}">
                                 <div class="mm-listitem__text" style="cursor:pointer"><i class="far fa-search"></i>
                                 </div>
                             </li>
@@ -387,11 +361,11 @@
                     <div id="mm-1" class="mm-panel mm-hidden" aria-hidden="true">
                         <ul class="sub-menu mm-listview">
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759834 mm-listitem">
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759834 mm-listitem {{ request()->is('category/africa') ? 'current-menu-item' : '' }}">
                                 <a href="/category/africa" class="mm-listitem__text">Africa</a></li>
                             <li
-                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759837 mm-listitem">
-                                <a href="/category/rest-of-the-world" class="mm-listitem__text">Rest of the World</a>
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759837 mm-listitem {{ request()->is('category/rest-of-the-world') ? 'current-menu-item' : '' }}">
+                                <a href="{{ route('category', ['pageName'=>'rest-of-the-world']) }}" class="mm-listitem__text">Rest of the World</a>
                             </li>
                         </ul>
                     </div>
@@ -410,8 +384,7 @@
                                                         class="menu-button-container overlayTrigger"><span
                                                             class="top"></span><span class="middle"></span><span
                                                             class="bottom"></span></a></li>
-                                                <li><span class="todays-date hide-for-sm-down">Tuesday, March 26,
-                                                        2024</span></li>
+                                                <li><span class="todays-date hide-for-sm-down" id="todays-date"></span></li>
                                             </ul>
                                         </div>
                                         <div class="flex-spacer"></div>
@@ -435,48 +408,40 @@
                             <div id="masthead_menu_wrapper">
                                 <div class="wrapper container-fluid">
                                     <ul class="main-menu">
-                                        <li id="menu-item-606048"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-148 current_page_item menu-item-606048">
-                                            <a href="/">Home</a></li>
-                                        <li id="menu-item-606039"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606039">
-                                            <a href="/category/business">Business</a></li>
-                                        <li id="menu-item-606040"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606040">
-                                            <a href="/category/politics">Politics</a></li>
-                                        <li id="menu-item-606041"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606041">
-                                            <a href="/category/nigeria">Nigeria</a></li>
-                                        <li id="menu-item-759831"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-759831">
-                                            <a href="/category/international">International</a>
+                                        <li id="menu-item-606048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home {{ request()->is('/') ? 'current-menu-item' : '' }} page_item page-item-148 current_page_item menu-item-606048">
+                                            <a href="{{ route('home') }}">Home</a>
+                                        </li>
+                                        <li id="menu-item-606039" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606039 {{ request()->is('category/business') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'business']) }}">Business</a>
+                                        </li>
+                                        <li id="menu-item-606040" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606040 {{ request()->is('category/politics') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'politics']) }}">Politics</a>
+                                        </li>
+                                        <li id="menu-item-606041" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606041 {{ request()->is('category/nigeria') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'nigeria']) }}">Nigeria</a>
+                                        </li>
+                                        <li id="menu-item-759831" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-759831 {{ request()->is('category/international') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'international']) }}">International</a>
                                             <ul class="sub-menu">
-                                                <li id="menu-item-759834"
-                                                    class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759834">
-                                                    <a href="/category/africa">Africa</a></li>
-                                                <li id="menu-item-759837"
-                                                    class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759837">
-                                                    <a href="/category/rest-of-the-world">Rest of the World</a></li>
+                                                <li id="menu-item-759834" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759834 {{ request()->is('category/africa') ? 'current-menu-item' : '' }}">
+                                                    <a href="{{ route('category', ['pageName'=>'africa']) }}">Africa</a>
+                                                </li>
+                                                <li id="menu-item-759837" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-759837 {{ request()->is('category/rest-of-the-world') ? 'current-menu-item' : '' }}">
+                                                    <a href="{{ route('category', ['pageName'=>'rest-of-the-world']) }}">Rest of the World</a></li>
                                             </ul>
                                         </li>
-                                        <li id="menu-item-606042"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606042">
-                                            <a href="/category/health">Health &amp; Wellbeing</a></li>
-                                        <li id="menu-item-606043"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606043">
-                                            <a href="/category/education">Education</a></li>
-                                        <li id="menu-item-606044"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606044">
-                                            <a href="/category/lifestyle">Life &amp; Style</a></li>
-                                        <li id="menu-item-606045"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606045">
-                                            <a href="/category/sport">Sport</a></li>
-                                        <li id="menu-item-606046"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606046">
-                                            <a href="/category/editorial">Editorial</a></li>
-                                        <li id="menu-item-606047"
-                                            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606047">
-                                            <a href="/category/backpage">Backpage</a></li>
+                                        <li id="menu-item-606042" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606042 {{ request()->is('category/health') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'health']) }}">Health &amp; Wellbeing</a></li>
+                                        <li id="menu-item-606043" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606043 {{ request()->is('category/education') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'education']) }}">Education</a></li>
+                                        <li id="menu-item-606044" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606044 {{ request()->is('category/lifestyle') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'lifestyle']) }}">Life &amp; Style</a></li>
+                                        <li id="menu-item-606045" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606045 {{ request()->is('category/sport') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'sport']) }}">Sport</a></li>
+                                        <li id="menu-item-606046" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606046 {{ request()->is('category/editorial') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'editorial']) }}">Editorial</a></li>
+                                        <li id="menu-item-606047" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-606047 {{ request()->is('category/backpage') ? 'current-menu-item' : '' }}">
+                                            <a href="{{ route('category', ['pageName'=>'backpage']) }}">Backpage</a></li>
                                         <li id="menu-item-606054"
                                             class="search-toggle menu-item menu-item-type-custom menu-item-object-custom menu-item-606054">
                                             <i style="cursor:pointer" class="far fa-search"></i></li>
@@ -499,20 +464,19 @@
                                         <div class="slick-slider slick-vertical slick-initialized" dir="ltr">
                                             <div class="slick-list">
                                                 <div class="slick-track" style="width:900%;left:-100%">
-                                                    <div data-index="-1" tabindex="-1"
-                                                        class="slick-slide slick-cloned" aria-hidden="true"
-                                                        style="width:11.11111111111111%">
+                                                    <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned"
+                                                        aria-hidden="true" style="width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/25/nigerian-army-hands-over-rescued-kaduna-schoolchildren-to-gov-sani"><span>Nigerian
-                                                                            Army Hands over Rescued Kaduna
-                                                                            Schoolchildren to Gov Sani</span></a><span
+                                                                        href="/index.php/2024/03/27/lokpobiri-seeks-reduction-of-bureaucracy-in-petroleum-sector-eyes-5bn-in-bonga-north-project"><span>Lokpobiri
+                                                                            Seeks Reduction of Bureaucracy in Petroleum
+                                                                            Sector, Eyes $5bn in Bonga North
+                                                                            Project</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">14 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
@@ -521,16 +485,15 @@
                                                         tabindex="-1" aria-hidden="false"
                                                         style="outline:none;width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/26/fg-no-ransom-paid-for-release-of-kaduna-schoolchildren"><span>FG:
-                                                                            No Ransom Paid for Release of Kaduna
-                                                                            Schoolchildren</span></a><span
+                                                                        href="/index.php/2024/03/27/tinubu-confers-national-honours-on-slain-military-personnel"><span>Tinubu
+                                                                            Confers National Honours on Slain Military
+                                                                            Personnel</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">8 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">3 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
@@ -539,16 +502,16 @@
                                                         aria-hidden="true"
                                                         style="outline:none;width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/26/cbn-approves-fresh-fx-allocation-to-bdcs-at-lower-rate"><span>CBN
-                                                                            Approves Fresh FX Allocation to BDCs at
-                                                                            Lower Rate</span></a><span
+                                                                        href="/index.php/2024/03/27/cbn-doubles-down-on-monetary-tightening-again-raises-mpr-to-24-75-to-curb-inflation"><span>CBN
+                                                                            Doubles Down on Monetary Tightening, Again,
+                                                                            Raises MPR to 24.75% to Curb
+                                                                            Inflation</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">8 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
@@ -557,16 +520,15 @@
                                                         aria-hidden="true"
                                                         style="outline:none;width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/26/tinubu-approves-creation-of-renewed-hope-infrastructure-fund-to-bridge-infrastructure-gap"><span>Tinubu
-                                                                            Approves Creation of Renewed Hope
-                                                                            Infrastructure Fund to Bridge Infrastructure
-                                                                            Gap</span></a><span class="post-meta"><span
+                                                                        href="/index.php/2024/03/27/tinubu-we-must-treat-kidnappers-as-terrorists-theyre-cowards"><span>Tinubu:
+                                                                            We Must Treat Kidnappers as Terrorists,
+                                                                            They&#8217;re Cowards</span></a><span
+                                                                        class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">8 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
@@ -575,88 +537,82 @@
                                                         aria-hidden="true"
                                                         style="outline:none;width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/25/nigerian-army-hands-over-rescued-kaduna-schoolchildren-to-gov-sani"><span>Nigerian
-                                                                            Army Hands over Rescued Kaduna
-                                                                            Schoolchildren to Gov Sani</span></a><span
+                                                                        href="/index.php/2024/03/27/lokpobiri-seeks-reduction-of-bureaucracy-in-petroleum-sector-eyes-5bn-in-bonga-north-project"><span>Lokpobiri
+                                                                            Seeks Reduction of Bureaucracy in Petroleum
+                                                                            Sector, Eyes $5bn in Bonga North
+                                                                            Project</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">14 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div data-index="4" tabindex="-1"
-                                                        class="slick-slide slick-cloned" aria-hidden="true"
-                                                        style="width:11.11111111111111%">
+                                                    <div data-index="4" tabindex="-1" class="slick-slide slick-cloned"
+                                                        aria-hidden="true" style="width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/26/fg-no-ransom-paid-for-release-of-kaduna-schoolchildren"><span>FG:
-                                                                            No Ransom Paid for Release of Kaduna
-                                                                            Schoolchildren</span></a><span
+                                                                        href="/index.php/2024/03/27/tinubu-confers-national-honours-on-slain-military-personnel"><span>Tinubu
+                                                                            Confers National Honours on Slain Military
+                                                                            Personnel</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">8 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">3 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div data-index="5" tabindex="-1"
-                                                        class="slick-slide slick-cloned" aria-hidden="true"
-                                                        style="width:11.11111111111111%">
+                                                    <div data-index="5" tabindex="-1" class="slick-slide slick-cloned"
+                                                        aria-hidden="true" style="width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/26/cbn-approves-fresh-fx-allocation-to-bdcs-at-lower-rate"><span>CBN
-                                                                            Approves Fresh FX Allocation to BDCs at
-                                                                            Lower Rate</span></a><span
+                                                                        href="/index.php/2024/03/27/cbn-doubles-down-on-monetary-tightening-again-raises-mpr-to-24-75-to-curb-inflation"><span>CBN
+                                                                            Doubles Down on Monetary Tightening, Again,
+                                                                            Raises MPR to 24.75% to Curb
+                                                                            Inflation</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">8 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div data-index="6" tabindex="-1"
-                                                        class="slick-slide slick-cloned" aria-hidden="true"
-                                                        style="width:11.11111111111111%">
+                                                    <div data-index="6" tabindex="-1" class="slick-slide slick-cloned"
+                                                        aria-hidden="true" style="width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/26/tinubu-approves-creation-of-renewed-hope-infrastructure-fund-to-bridge-infrastructure-gap"><span>Tinubu
-                                                                            Approves Creation of Renewed Hope
-                                                                            Infrastructure Fund to Bridge Infrastructure
-                                                                            Gap</span></a><span class="post-meta"><span
+                                                                        href="/index.php/2024/03/27/tinubu-we-must-treat-kidnappers-as-terrorists-theyre-cowards"><span>Tinubu:
+                                                                            We Must Treat Kidnappers as Terrorists,
+                                                                            They&#8217;re Cowards</span></a><span
+                                                                        class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">8 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div data-index="7" tabindex="-1"
-                                                        class="slick-slide slick-cloned" aria-hidden="true"
-                                                        style="width:11.11111111111111%">
+                                                    <div data-index="7" tabindex="-1" class="slick-slide slick-cloned"
+                                                        aria-hidden="true" style="width:11.11111111111111%">
                                                         <div>
-                                                            <div tabindex="-1"
-                                                                style="width:100%;display:inline-block">
+                                                            <div tabindex="-1" style="width:100%;display:inline-block">
                                                                 <h5 class="h6 title"><a
-                                                                        href="/index.php/2024/03/25/nigerian-army-hands-over-rescued-kaduna-schoolchildren-to-gov-sani"><span>Nigerian
-                                                                            Army Hands over Rescued Kaduna
-                                                                            Schoolchildren to Gov Sani</span></a><span
+                                                                        href="/index.php/2024/03/27/lokpobiri-seeks-reduction-of-bureaucracy-in-petroleum-sector-eyes-5bn-in-bonga-north-project"><span>Lokpobiri
+                                                                            Seeks Reduction of Bureaucracy in Petroleum
+                                                                            Sector, Eyes $5bn in Bonga North
+                                                                            Project</span></a><span
                                                                         class="post-meta"><span
                                                                             class="date-container"><i
-                                                                                class="fa-regular fa-calendar-days"></i><span
-                                                                                class="date">14 hours
+                                                                                class="fa-light fa-calendar-days"></i><span
+                                                                                class="date">18 hours
                                                                                 ago</span></span></span></h5>
                                                             </div>
                                                         </div>
@@ -1884,16 +1840,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="wideAd"><ins adsbygoogle data-revive-zoneid=8
-                                data-revive-id=f1b2d73c224f637af384b7861f5b193c></ins>
+                        <div class="wideAd">
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="mm-wrapper__blocker mm-slideout">
-                <a href="#"><span class="mm-sronly">Close menu</span></a>
-            </div>
-            <div class="Toastify"></div>
         </div>
     </div>
 
